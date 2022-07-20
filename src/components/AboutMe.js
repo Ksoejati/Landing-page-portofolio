@@ -3,28 +3,28 @@ const aboutMe = () => {
     <section id="about" className="pt-28 pb-32">
       <div className="container">
         <div className="flex flex-wrap">
-          <div className="w-full px-4 mb-10">
+          <div className="w-full px-4 mb-10 lg:w-1/2">
             <h4 className="font-bold uppercase text-primary text-lg mb-5">
               About Me
             </h4>
-            <h2 className="font-bold text-dark text-2xl  mb-5 max-w-md">
+            <h2 className="font-bold text-dark text-2xl mb-5 max-w-md lg:text-4xl">
               Let's Singing 🎤
             </h2>
-            <p className="font-medium text-base text-secondary max-w-4xl">
+            <p className="font-medium text-base text-secondary max-w-4xl lg:text-lg">
               "I love the fact that I can make people happy, in any form. Even
               if it’s just an hour of their lives, if I can make them feel lucky
               or make them feel good, or bring a smile to a sour face, that to
               me is worthwhile."
-              <p className="font-bold text-right text-slate-700">
+              <p className="font-bold text-center pt-5 text-slate-700">
                 -Freddie Mercury-
               </p>
             </p>
           </div>
-          <div className="w-full px-4">
-            <h3 className="font-bold text-dark text-2xl  mb-7 max-w-md">
+          <div className="w-full px-4 lg:w-1/2">
+            <h3 className="font-bold text-dark text-2xl  mb-7 max-w-md lg:text-3xl lg:pt-10">
               Let's be friends.
             </h3>
-            <p className="font-medium text-base text-secondary max-w-4xl mb-5">
+            <p className="font-medium text-base text-secondary max-w-4xl mb-5 lg:text-lg">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -36,11 +36,11 @@ const aboutMe = () => {
               publishing software like Aldus PageMaker including versions of
               Lorem Ipsum.
             </p>
-            <div className="flex items-center justify-end">
+            <div className="flex items-center justify-center max-w-4xl">
               {/* Instagram */}
               <a
                 href="#"
-                className="w-9 h-9 mr-3 rounded-full border flex justify-center 
+                className="w-9 h-9 mr-3 rounded-full border flex justify-center
                 items-center bg-red-700 hover:bg-primary hover:border-primary hover:text-white"
               >
                 <svg
@@ -95,7 +95,7 @@ const aboutMe = () => {
               <a
                 href="#"
                 className="w-9 h-9 mr-3 rounded-full border flex justify-center 
-                items-center bg-stone-600 hover:bg-primary hover:border-primary hover:text-white"
+                items-center hover:bg-primary hover:border-primary hover:text-white"
               >
                 <svg
                   role="img"

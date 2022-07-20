@@ -22,7 +22,7 @@ const HeroSection = () => {
             </p>
 
             <a
-              href="#"
+              href="#about"
               className="text-base font-semibold text-white bg-primary py-3 px-4 
               rounded-full hover:shadow-lg hover:opacity-80 trasition duration-300 ease-out"
             >
