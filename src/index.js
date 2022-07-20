@@ -4,11 +4,13 @@ import "./CSS/index.css";
 import reportWebVitals from "./reportWebVitals";
 import HeroSection from "./components/Hero";
 import AboutMe from "./components/AboutMe";
+import Navbar from "./components/Navbar";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <HeroSection />
+    <Navbar />
+    {/* <HeroSection /> */}
     <AboutMe />
   </React.StrictMode>
 );
