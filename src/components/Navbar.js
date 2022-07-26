@@ -4,10 +4,6 @@ const Navbar = () => {
   const [hamburgerRotate, setHamburgerRotate] = useState(false);
   const [fixNavbar, setFixNavbar] = useState("");
 
-  function addClassName() {
-    setHamburgerRotate(!hamburgerRotate);
-  }
-
   const checkScroll = () => {
     if (window.scrollY > 0) {
       setFixNavbar(
@@ -42,7 +38,7 @@ const Navbar = () => {
               name="hamburger"
               type="button"
               className="block absolute right-4"
-              onClick={addClassName}
+              onClick={() => setHamburgerRotate(!hamburgerRotate)}
             >
               <span
                 className={`w-[30px] h-[2px] my-2 block bg-dark transition duration-200 ease-in-out origin-top-left${
