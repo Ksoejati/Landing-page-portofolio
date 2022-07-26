@@ -15,9 +15,10 @@ const aboutMe = () => {
               if it’s just an hour of their lives, if I can make them feel lucky
               or make them feel good, or bring a smile to a sour face, that to
               me is worthwhile."
-              <p className="font-bold text-center pt-5 text-slate-700">
+              <br />
+              <span className="font-bold flex justify-center pt-5 text-slate-700">
                 -Freddie Mercury-
-              </p>
+              </span>
             </p>
           </div>
           <div className="w-full px-4 lg:w-1/2">
