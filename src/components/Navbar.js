@@ -7,7 +7,8 @@ const Navbar = () => {
   const checkScroll = () => {
     if (window.scrollY > 0) {
       setFixNavbar(
-        "fixed z-[9999] bg-white bg-opacity-70 backdrop-blur-sm box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1"
+        "fixed z-[9999] bg-white bg-opacity-70 backdrop-blur-sm shadow-md"
+        // box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1"
       );
     } else {
       setFixNavbar("absolute z-10");
@@ -23,7 +24,7 @@ const Navbar = () => {
       // className="bg-transparent top-0 left-0 w-full flex items-center fixed z-[9999]"
     >
       <div className="container">
-        <div className="flex item-center justify-between">
+        <div className="flex relative item-center justify-between">
           <div className="px-4">
             <a
               href="#home"
@@ -32,12 +33,12 @@ const Navbar = () => {
               Sing a Song!
             </a>
           </div>
-          <div className="flex relative items-center p-4">
+          <div className="flex items-center p-4">
             <button
               id="hamburger"
               name="hamburger"
               type="button"
-              className="block absolute right-4"
+              className="block absolute right-4 lg:hidden"
               onClick={() => setHamburgerRotate(!hamburgerRotate)}
             >
               <span
@@ -59,6 +60,55 @@ const Navbar = () => {
               <span className="w-[30px] h-[2px] my-2 block bg-dark"></span>
               <span className="w-[30px] h-[2px] my-2 block bg-dark"></span> */}
             </button>
+            <div
+              className={`absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full 
+                lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none ${
+                  hamburgerRotate === true ? "" : "hidden"
+                }`}
+            >
+              <ul className="block lg:flex">
+                <li className="group">
+                  <a
+                    href="#home"
+                    className="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                  >
+                    Beranda
+                  </a>
+                </li>
+                <li className="group">
+                  <a
+                    href="#about"
+                    className="text-base text-dark py-2 mx-8 flex hover:text-primary"
+                  >
+                    Tentang saya
+                  </a>
+                </li>
+                <li className="group">
+                  <a
+                    href="#about"
+                    className="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                  >
+                    Portfolio
+                  </a>
+                </li>
+                <li className="group">
+                  <a
+                    href="#about"
+                    className="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                  >
+                    Clients
+                  </a>
+                </li>
+                <li className="group">
+                  <a
+                    href="#about"
+                    className="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                  >
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

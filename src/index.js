@@ -5,6 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import HeroSection from "./components/Hero";
 import AboutMe from "./components/AboutMe";
 import Navbar from "./components/Navbar";
+import PerformanceSchedule from "./components/PerformanceSchedule";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     <Navbar />
     <HeroSection />
     <AboutMe />
+    <PerformanceSchedule />
   </React.StrictMode>
 );
 
