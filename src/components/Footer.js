@@ -4,9 +4,7 @@ const Footer = () => {
       <div className="container">
         <div className="flex flex-wrap">
           <div className="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
-            <h2 className="font-bold text-4xl text-white mb-5">
-              Happy Management
-            </h2>
+            <h2 className="font-bold text-4xl text-white mb-5">Management</h2>
             <h3 className="font-bold text-2xl mb-2">Hubungi kami</h3>
             <p>contoh@gmail.com</p>
             <p>Wisma Tajur, Blok X No.999</p>
@@ -119,8 +117,8 @@ const Footer = () => {
             </div>
             <p className="font-medium text-white text-slate-500 text-center text-xs">
               Created by <span className="text-pink-500">❤️</span>{" "}
-              <span className="text-primary">Ksujati</span>, build with Tailwind
-              CSS
+              <span className="text-primary">Who am I?</span>, build with
+              Tailwind CSS
             </p>
           </div>
         </div>
