@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Landing-page-portofolio/static/css/main.66ab36fc.css",
+    "main.js": "/Landing-page-portofolio/static/js/main.5aa50e45.js",
+    "static/js/787.bf6be429.chunk.js": "/Landing-page-portofolio/static/js/787.bf6be429.chunk.js",
+    "static/media/LewisOrganic.jpg": "/Landing-page-portofolio/static/media/LewisOrganic.1d956fdf505e1ef40ecd.jpg",
+    "static/media/RuangHijau.jpg": "/Landing-page-portofolio/static/media/RuangHijau.48468e3196c3e9115e8d.jpg",
+    "static/media/Me3.png": "/Landing-page-portofolio/static/media/Me3.66e098ab09bdc6935b28.png",
+    "static/media/LogoLewis.png": "/Landing-page-portofolio/static/media/LogoLewis.90f2119003825f4bf094.png",
+    "index.html": "/Landing-page-portofolio/index.html",
+    "main.66ab36fc.css.map": "/Landing-page-portofolio/static/css/main.66ab36fc.css.map",
+    "main.5aa50e45.js.map": "/Landing-page-portofolio/static/js/main.5aa50e45.js.map",
+    "787.bf6be429.chunk.js.map": "/Landing-page-portofolio/static/js/787.bf6be429.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66ab36fc.css",
+    "static/js/main.5aa50e45.js"
+  ]
+}
