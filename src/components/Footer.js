@@ -1,43 +1,64 @@
-const aboutMe = () => {
+const Footer = () => {
   return (
-    <section id="about" className="pt-28 pb-32">
+    <footer className="bg-dark pt-24 pb-12">
       <div className="container">
         <div className="flex flex-wrap">
-          <div className="w-full px-4 mb-10 lg:w-1/2">
-            <h4 className="font-bold uppercase text-primary text-lg mb-5">
-              About me
-            </h4>
-            <h2 className="font-bold text-dark text-2xl mb-5 max-w-md lg:text-4xl">
-              Let's Singing <span className="text-red-500">🎤</span>
+          <div className="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+            <h2 className="font-bold text-4xl text-white mb-5">
+              Happy Management
             </h2>
-            <p className="font-medium text-base text-secondary max-w-4xl lg:text-lg">
-              "I love the fact that I can make people happy, in any form. Even
-              if it’s just an hour of their lives, if I can make them feel lucky
-              or make them feel good, or bring a smile to a sour face, that to
-              me is worthwhile."
-              <br />
-              <span className="font-bold flex justify-center pt-5 text-slate-700">
-                -Freddie Mercury-
-              </span>
-            </p>
+            <h3 className="font-bold text-2xl mb-2">Hubungi kami</h3>
+            <p>contoh@gmail.com</p>
+            <p>Wisma Tajur, Blok X No.999</p>
+            <p>Tangerang</p>
           </div>
-          <div className="w-full px-4 lg:w-1/2">
-            <h3 className="font-bold text-dark text-2xl  mb-7 max-w-md lg:text-3xl lg:pt-10">
-              Let's be friends.
-            </h3>
-            <p className="font-medium text-base text-secondary max-w-4xl mb-5 lg:text-lg">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
-            </p>
-            <div className="flex items-center justify-center max-w-4xl">
+          <div className="w-full px-4 mb-12 md:w-1/3">
+            <h3 className="font-semibold text-white text-xl mb-5">Tautan</h3>
+            <ul className="text-slate-300">
+              <li>
+                <a
+                  href="#home"
+                  className="inline-block text-base hover:text-primary mb-3"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  className="inline-block text-base hover:text-primary mb-3"
+                >
+                  About me
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#schedule"
+                  className="inline-block text-base hover:text-primary mb-3"
+                >
+                  Performance schedule
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#clients"
+                  className="inline-block text-base hover:text-primary mb-3"
+                >
+                  Clients
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  className="inline-block text-base hover:text-primary mb-3"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="w-full pt-10 border-t border-slate-700">
+            <div className="flex items-center justify-center max-w-4xl mb-5">
               {/* Youtube */}
               <a
                 href="#"
@@ -96,11 +117,16 @@ const aboutMe = () => {
                 </svg>
               </a>
             </div>
+            <p className="font-medium text-white text-slate-500 text-center text-xs">
+              Created by <span className="text-pink-500">❤️</span>{" "}
+              <span className="text-primary">Ksujati</span>, build with Tailwind
+              CSS
+            </p>
           </div>
         </div>
       </div>
-    </section>
+    </footer>
   );
 };
 
-export default aboutMe;
+export default Footer;

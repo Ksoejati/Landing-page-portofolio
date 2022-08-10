@@ -72,7 +72,7 @@ const Navbar = () => {
                     href="#home"
                     className="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
                   >
-                    Beranda
+                    Home
                   </a>
                 </li>
                 <li className="group">
@@ -80,20 +80,20 @@ const Navbar = () => {
                     href="#about"
                     className="text-base text-dark py-2 mx-8 flex hover:text-primary"
                   >
-                    Tentang saya
+                    About me
                   </a>
                 </li>
                 <li className="group">
                   <a
-                    href="#about"
+                    href="#schedule"
                     className="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
                   >
-                    Portfolio
+                    Performance Schedule
                   </a>
                 </li>
                 <li className="group">
                   <a
-                    href="#about"
+                    href="#clients"
                     className="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
                   >
                     Clients
@@ -101,7 +101,7 @@ const Navbar = () => {
                 </li>
                 <li className="group">
                   <a
-                    href="#about"
+                    href="#contact"
                     className="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
                   >
                     Contact

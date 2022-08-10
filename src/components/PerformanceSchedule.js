@@ -3,7 +3,7 @@ import LewisOrganic from "../assets/img/LewisOrganic.jpg";
 
 const PerformSchedule = () => {
   return (
-    <section id="schedule" className="pt-36 pb-16 bg-slate-100">
+    <section id="schedule" className="pt-24 pb-16 bg-slate-200">
       <div className="container">
         <div className="w-full px-4">
           <div className="max-w-xl mx-auto text-center mb-16">
@@ -14,8 +14,8 @@ const PerformSchedule = () => {
         </div>
         <div className="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
           {/* Perform 1 */}
-          <div className="mb-12 p-4 md:w-1/2">
-            <div className="rounded-md shadow-md overflow-hidden">
+          <div className="mb-12 p-4 md:w-1/2 bg-w">
+            <div className="rounded-md shadow-lg pt-5 overflow-hidden bg-white">
               <h3 className="text-center mb-3 font-semibold text-dark">
                 Ruang Hijau
                 <p className="flex justify-center items-center">
@@ -62,9 +62,9 @@ const PerformSchedule = () => {
           </div>
 
           {/* Perform 1 */}
-          <div className="mb-12 p-4 md:w-1/2">
-            <div className="rounded-md shadow-md overflow-hidden">
-              <h3 className="text-center mb-3 font-semibold text-dark">
+          <div className="p-4 md:w-1/2">
+            <div className="rounded-md shadow-lg overflow-hidden pt-5 bg-white">
+              <h3 className="text-center mb-3 font-semibold  text-dark ">
                 Lewi's Organic
                 <p className="flex justify-center items-center">
                   <svg

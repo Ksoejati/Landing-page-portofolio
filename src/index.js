@@ -6,6 +6,9 @@ import HeroSection from "./components/Hero";
 import AboutMe from "./components/AboutMe";
 import Navbar from "./components/Navbar";
 import PerformanceSchedule from "./components/PerformanceSchedule";
+import Clients from "./components/Clients";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,6 +17,9 @@ root.render(
     <HeroSection />
     <AboutMe />
     <PerformanceSchedule />
+    <Clients />
+    <Contact />
+    <Footer />
   </React.StrictMode>
 );
 

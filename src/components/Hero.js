@@ -8,7 +8,7 @@ const HeroSection = () => {
         <div className="flex flex-wrap">
           <div className="w-full self-center  px-4 lg:w-1/2">
             <h1 className="text-base font-semibold text-primary md:text-xl lg:text-2xl">
-              Hi Everyone 👋,
+              Hi Everyone <span className="text-orange-400">👋</span>,
               <span className="block font-bold text-dark text-4xl mt-1 lg:text-5xl">
                 I'm Tika
               </span>
